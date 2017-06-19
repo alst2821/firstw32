@@ -1,5 +1,5 @@
 
-cl test.cpp /Fegdiplus 
+cl /Wall test.cpp /Fegdiplus 
 
 
 
