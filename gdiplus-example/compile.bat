@@ -1,0 +1,5 @@
+
+cl test.cpp /Fegdiplus 
+
+
+
