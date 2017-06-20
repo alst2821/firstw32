@@ -1,0 +1,1 @@
+Why does the image-test program not display the image in the included png file?
