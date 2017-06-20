@@ -1,11 +1,9 @@
 /* https://msdn.microsoft.com/en-us/library/vs/alm/ms533895(v=vs.85).aspx */
 
-//#include <stdafx.h>
 #define UNICODE
 #include <windows.h>
 #include <objidl.h>
 #include <gdiplus.h>
-#include <cstdio>
 using namespace Gdiplus;
 #pragma comment (lib,"Gdiplus.Lib")
 #pragma comment (lib,"User32.Lib")
@@ -74,12 +72,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 {
    HDC          hdc;   
    PAINTSTRUCT  ps;
-   Image *image = NULL;
+   static Image *image = NULL;
    switch(message)
    {
    case WM_CREATE:
        //create image
-     MessageBox(NULL, L"small.png", L"File Path", MB_OK);
+       MessageBox(NULL, L"small.png", L"File Path", MB_OK);
        image = new Image(L"small.png");
        if (image)
 	   return 0;

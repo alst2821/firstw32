@@ -1,0 +1,12 @@
+PAINTSTRUCT info
+https://msdn.microsoft.com/en-us/library/windows/desktop/dd162768(v=vs.85).aspx
+
+BeginPaint info
+https://msdn.microsoft.com/en-us/library/windows/desktop/dd183362(v=vs.85).aspx
+
+Graphics class
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms534453(v=vs.85).aspx
+
+Graphics DrawImage
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms535746(v=vs.85).aspx
+
