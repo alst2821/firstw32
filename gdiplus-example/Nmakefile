@@ -1,0 +1,16 @@
+all: image-test.exe test.exe
+
+.cpp.obj:
+	cl /c  $*.cpp
+
+image-test.exe: image-test.obj
+	link -out:image-test.exe image-test.obj 
+
+test.exe: test.cpp
+	link -out:test.exe test.obj
+
+#.cpp.obj:
+#  $(cc) $(cdebug) $(cflags) $(cvars) $*.cpp
+
+#first.exe: first.obj
+#  $(link) $(ldebug) $(conflags) -out:first.exe first.obj

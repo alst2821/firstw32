@@ -1,5 +1,4 @@
-
-cl /Wall test.cpp /Fegdiplus 
+nmake /f Nmakefile
 
 
 
