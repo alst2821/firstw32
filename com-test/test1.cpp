@@ -1,7 +1,5 @@
 /* https://msdn.microsoft.com/en-us/library/windows/desktop/ff485843(v=vs.85).aspx */
-// #pragma once
-// #include "targetver.h"
-// #define WIN32_LEAN_AND_MEAN
+
 #define UNICODE
 #include <windows.h>
 #pragma comment(lib,"user32.lib")
